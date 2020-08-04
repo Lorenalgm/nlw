@@ -1,24 +1,40 @@
 import React from 'react';
 import './App.css';
+import logo from './assets/logo.svg';
+import seta from './assets/seta.svg';
+import image from './assets/image.svg';
+import background from './assets/background.png';
+import { FaStar, FaArrowCircleRight, FaCalendar } from 'react-icons/fa';
 
 function App() {
   return (
     <div className="App">
       <div className="hero">
         <div className="header">
-          <img src="" alt="Logo" />
-          <div className="date">1 a 5 de janeiro</div>
-          <div className="free">100% online e gratuito!</div>
-          <div className="new-content">Conteúdo inédito!</div>
+          <img src={logo} alt="Logo" />
+          <div className="header-info">
+            <div className="date">
+              <FaCalendar />
+              <p>1 a 5 de janeiro</p>
+            </div>
+            <div className="free">
+              <FaArrowCircleRight />
+              <p>100% online e gratuito!</p>
+            </div>
+            <div className="new-content">
+              <FaStar />
+              <p>Conteúdo inédito!</p>
+            </div>
+          </div>
         </div>
         <div className="hero-content">
           <h1>Avance para o próximo nível</h1>
           <p>Um evento para dar o próximo passo na sua evolução em programação.</p>
-          <a href="#">QUERO PARTICIPAR</a>
+          <a className="button" href="#">QUERO PARTICIPAR</a>
         </div>
       </div>
       <div className="about">
-        <img src="" alt="Logo" />
+        <img src={image} alt="Logo" />
         <div className="about-content">
           <h1>O que é a Next Level Week?</h1>
           <p className="highlight">O NLW é um evento com muito código, desafios, 
@@ -33,7 +49,7 @@ function App() {
         </div>
       </div>
       <div className="pillars-section">
-        <img src="" alt="Icon" />
+        <img src={seta} alt="Icon" />
         <h1>Nosso método é baseado em 3 pilares</h1>
         <div className="pillars">
           <div className="pillar">
