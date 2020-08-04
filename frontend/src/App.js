@@ -4,7 +4,7 @@ import logo from './assets/logo.svg';
 import seta from './assets/seta.svg';
 import image from './assets/image.svg';
 import background from './assets/background.png';
-import { FaStar, FaArrowCircleRight, FaCalendar } from 'react-icons/fa';
+import { FaStar, FaExclamationCircle, FaCalendar } from 'react-icons/fa';
 
 function App() {
   return (
@@ -14,11 +14,11 @@ function App() {
           <img src={logo} alt="Logo" />
           <div className="header-info">
             <div className="date">
-              <FaCalendar />
+              <FaCalendar className="icon" />
               <p>1 a 5 de janeiro</p>
             </div>
             <div className="free">
-              <FaArrowCircleRight />
+              <FaExclamationCircle  className="icon" />
               <p>100% online e gratuito!</p>
             </div>
             <div className="new-content">
@@ -28,8 +28,8 @@ function App() {
           </div>
         </div>
         <div className="hero-content">
-          <h1>Avance para o próximo nível</h1>
-          <p>Um evento para dar o próximo passo na sua evolução em programação.</p>
+          <h1>Avance para o<br></br>próximo nível</h1>
+          <p>Um evento para dar o próximo passo na sua<br></br> evolução como programadora ou programador.</p>
           <a className="button" href="#">QUERO PARTICIPAR</a>
         </div>
       </div>

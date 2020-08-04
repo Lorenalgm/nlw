@@ -14,6 +14,7 @@ body{
 
 .hero{
   margin: 0 1em;
+  margin-bottom: 20em;
 }
 
 .header{
@@ -30,6 +31,10 @@ body{
   display: flex;
 }
 
+.icon{
+  color: var(--verde)
+}
+
 .new-content{
   color: var(--amarelo);
 }
@@ -37,16 +42,23 @@ body{
   margin-bottom: 4em;
 }
 
+.hero-content h1{
+  font-size: 2.5em;
+}
 .hero-content p{
   color: var(--verde);
+  margin-bottom: 3em;
 }
 
 .button{
+  display: inline-block;
+  border-radius: 3px;
   background: var(--roxo);
   color: white;
   text-decoration: none;
   font-size: 14px;
-  padding: 18px 25px;
+  padding: 18px 30%;
+  border-bottom: 5px solid rgb(73, 45, 138);
 }
 
 .about img{
