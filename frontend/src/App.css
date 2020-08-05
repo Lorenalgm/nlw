@@ -223,4 +223,29 @@ h1{
   .pillar p{
     font-size: 1.2em;
   }
+  
+  .company{
+    margin-top: 9em;
+    display: flex;
+  }
+
+  .company h1{
+    font-size: 3.3em;
+  }
+
+  .company p{
+    font-size: 1.2em;
+  }
+
+  .company-numbers{
+    padding: 0 3em;
+  }
+
+  .number{
+    width: 40%;
+    margin: 2em;
+    padding: 2em 0;
+  }
+
+
 }
