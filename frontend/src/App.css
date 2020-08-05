@@ -6,14 +6,19 @@
   --roxo: #7A4CE5;
   --amarelo: #F7DF1E;
   --cinza-claro: #e1e1e6;
+  --cinza-texto: #a8a8b3;
 }
 
 body{
   margin: 0;
   padding: 0;
   background: var(--cinza);
-  color: var(--cinza-claro);
+  color: var(--cinza-texto);
   font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: var(--cinza-claro);
 }
 
 .App{
@@ -36,6 +41,7 @@ body{
 .header-info{
   margin-top: 2em;
   display: flex;
+  color: var(--cinza-claro);
 }
 
 .icon{
@@ -194,4 +200,27 @@ body{
     font-size: 2.5em;
   }
 
+  .pillars-title{
+    font-size: 3em;
+    margin-bottom: 2em;
+  }
+
+  .pillars{
+    display: flex;
+  }
+
+  .pillar{
+    border-left: none;
+    border-top: 4px solid var(--roxo);
+    margin: 1em;
+    padding: 0;
+  }
+  
+  .pillar h1{
+    font-size: 2.5em;
+  }
+
+  .pillar p{
+    font-size: 1.2em;
+  }
 }

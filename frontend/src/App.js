@@ -15,7 +15,7 @@ function App() {
           <div className="header-info">
             <div className="date">
               <FaCalendar className="icon" />
-              <p>1 a 5 de<br></br>janeiro</p>
+              <p>28 a 30 de<br></br>fevereiro</p>
             </div>
             <div className="free">
               <FaExclamationCircle  className="icon" />
@@ -50,7 +50,7 @@ function App() {
       </div>
       <div className="pillars-section">
         <img src={seta} alt="Icon" />
-        <h1>Nosso método é baseado em 3 pilares</h1>
+        <h1 className="pillars-title">Nosso método é<br></br>baseado em 3 pilares</h1>
         <div className="pillars">
           <div className="pillar">
             <h1>Prática</h1>
