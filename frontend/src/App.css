@@ -247,5 +247,27 @@ h1{
     padding: 2em 0;
   }
 
+  .disclaimer img{
+    width: 50%;
+  }
+
+  .disclaimer{
+    flex-direction: row;
+    margin-bottom: 10em;
+    margin-top: 5em;
+  }
+
+  .disclaimer-content{
+    padding: 0 3em;
+    font-size: 1.2em;
+  }
+
+  .disclaimer-content h1{
+    font-size: 2.5em;
+  }
+
+  .content-footer h1{
+    margin-bottom: 0.4em;
+  }
 
 }

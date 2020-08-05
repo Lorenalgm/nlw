@@ -135,9 +135,9 @@ function App() {
         </div>
       </div>
       <div className="disclaimer">
-        <h1>Disclaimer</h1>
         <img src={bootcamp} alt="Icon" />
         <div className="disclaimer-content">
+          <h1>Disclaimer</h1>
           <p>Ao final desse evento nós abrimos as 
             inscrições para novas turmas dos nossos bootcamps pagos.</p>
         </div>
@@ -146,17 +146,17 @@ function App() {
         <div className="header">
             <img src={logo} alt="Logo" />
             <div className="header-info">
-              <div className="date">
-                <FaCalendar className="icon" />
-                <p>1 a 5 de janeiro</p>
+            <div className="date">
+              <FaCalendar className="icon" />
+                <p>28 a 30 de<br></br>fevereiro</p>
               </div>
               <div className="free">
                 <FaExclamationCircle  className="icon" />
-                <p>100% online e gratuito!</p>
+                <p>100% online<br></br>e gratuito!</p>
               </div>
               <div className="new-content">
                 <FaStar />
-                <p>Conteúdo inédito!</p>
+                <p>Conteúdo<br></br>inédito!</p>
               </div>
             </div>
         </div>
