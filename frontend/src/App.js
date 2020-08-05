@@ -4,6 +4,7 @@ import logo from './assets/logo.svg';
 import seta from './assets/seta.svg';
 import image from './assets/image.svg';
 import background from './assets/background.png';
+import bootcamp from './assets/bootcamp.svg';
 import { FaStar, FaExclamationCircle, FaCalendar } from 'react-icons/fa';
 
 function App() {
@@ -72,7 +73,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="power-section">
+      {/* <div className="power-section">
         <h1>O poder dos 3 pilares combinados</h1>
         <div className="powers">
           <div className="power">
@@ -112,33 +113,57 @@ function App() {
             <h2>Experiência e portfolio</h2>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="company">
         <h1>Sobre a Rocketseat</h1>
         <div className="company-numbers">
           <div className="number">
-            <h1>12 mil</h1>
+            <h1><span>12</span> mil</h1>
             <p>Alunos treinados nos bootcamps</p>
           </div>
           <div className="number">
-            <h1>12 mil</h1>
-            <p>Alunos treinados nos bootcamps</p>
+            <h1><span>190</span> mil</h1>
+            <p>Alunos iniciados nos cursos gratuitos</p>
           </div>
           <div className="number">
-            <h1>12 mil</h1>
-            <p>Alunos treinados nos bootcamps</p>
+            <h1><span>57</span> mil</h1>
+            <p>Membros na comunidade aberta</p>
           </div>
           <div className="number">
-            <h1>12 mil</h1>
-            <p>Alunos treinados nos bootcamps</p>
+            <h1><span>386</span> mil</h1>
+            <p>Devs impactados</p>
           </div>
         </div>
       </div>
       <div className="disclaimer">
-        <img src="" alt="Icon" />
+        <h1>Disclaimer</h1>
+        <img src={bootcamp} alt="Icon" />
         <div className="disclaimer-content">
           <p>Ao final desse evento nós abrimos as 
             inscrições para novas turmas dos nossos bootcamps pagos.</p>
+        </div>
+      </div>
+      <div className="footer">
+        <div className="header">
+            <img src={logo} alt="Logo" />
+            <div className="header-info">
+              <div className="date">
+                <FaCalendar className="icon" />
+                <p>1 a 5 de janeiro</p>
+              </div>
+              <div className="free">
+                <FaExclamationCircle  className="icon" />
+                <p>100% online e gratuito!</p>
+              </div>
+              <div className="new-content">
+                <FaStar />
+                <p>Conteúdo inédito!</p>
+              </div>
+            </div>
+        </div>
+        <div className="hero-content content-footer">
+          <h1>Participe e bora codar!</h1>
+          <a className="button" href="#">QUERO PARTICIPAR</a>
         </div>
       </div>
     </div>

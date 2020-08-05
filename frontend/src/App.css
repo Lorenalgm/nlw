@@ -60,7 +60,7 @@ body{
   background: var(--roxo);
   color: white;
   text-decoration: none;
-
+  font-weight: bold;
   font-size: 14px;
   padding: 18px 30%;
   border-bottom: 5px solid rgb(73, 45, 138);
@@ -85,4 +85,87 @@ body{
 
 .pillar h1{
   font-size: 24px;
+}
+
+.disclaimer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3em;
+  color: var(--verde);
+  text-align: left;
+}
+
+.company-numbers{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.number {
+  margin: 2em 0.5em;
+  width: 45%;
+  border-top: 6px solid var(--roxo);
+}
+
+.number h1{
+  font-size: 2.5em;
+  line-height: 18px;
+}
+
+.number span{
+  color: var(--verde);
+}
+
+.disclaimer h1{
+  color: var(--cinza-claro);
+}
+
+.disclaimer img{
+  width: 80%;
+}
+
+.content-footer{
+  margin-top: 3em;
+  margin-bottom: 5em;
+  font-size: 0.8em;
+}
+
+@media only screen and (min-width: 600px){
+  .App{
+    margin: 0 5em;
+    background-image: url('./assets/background.png');
+    background-size: 120em;
+    background-position-x: -22em;
+    background-position-y: -8em;
+    background-repeat: no-repeat;
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header{
+    display: flex;
+  }
+
+  .header img{
+    margin-right: 3em;
+    width: 15%;
+  }
+
+  .hero-content h1{
+    font-size: 4.5em;
+    margin-bottom: 0;
+  }
+
+  .hero-content p{
+    font-size: 1.2em;
+  }
+
+  .button{
+    padding: 1.4em 3.6em;
+    font-size: 1.2em;
+  }
+
 }
