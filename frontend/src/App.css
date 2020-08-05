@@ -3,18 +3,22 @@
   --verde: #04d361;
   --roxo: #7A4CE5;
   --amarelo: #F7DF1E;
+  --cinza-claro: #e1e1e6;
 }
 
 body{
   margin: 0;
   padding: 0;
   background: var(--cinza);
-  color: white;
+  color: var(--cinza-claro);
+}
+
+.App{
+  margin: 0 1em;
 }
 
 .hero{
-  margin: 0 1em;
-  margin-bottom: 20em;
+  margin-bottom: 10em;
 }
 
 .header{
@@ -56,6 +60,7 @@ body{
   background: var(--roxo);
   color: white;
   text-decoration: none;
+
   font-size: 14px;
   padding: 18px 30%;
   border-bottom: 5px solid rgb(73, 45, 138);
@@ -63,4 +68,21 @@ body{
 
 .about img{
   width: 60%;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 9em;
+}
+
+.pillar{
+  border-left: 2px solid var(--roxo);
+  padding: 0 2em;
+  margin-bottom: 3em;
+}
+
+.pillar h1{
+  font-size: 24px;
 }
