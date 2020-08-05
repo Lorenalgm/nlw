@@ -44,6 +44,10 @@ h1{
   color: var(--cinza-claro);
 }
 
+.header-info div{
+  margin-right: 1em;
+}
+
 .icon{
   color: var(--verde)
 }
