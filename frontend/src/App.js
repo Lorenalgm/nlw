@@ -3,7 +3,6 @@ import './App.css';
 import logo from './assets/logo.svg';
 import seta from './assets/seta.svg';
 import image from './assets/image.svg';
-import background from './assets/background.png';
 import bootcamp from './assets/bootcamp.svg';
 import { FaStar, FaExclamationCircle, FaCalendar } from 'react-icons/fa';
 
@@ -16,28 +15,28 @@ function App() {
           <div className="header-info">
             <div className="date">
               <FaCalendar className="icon" />
-              <p>1 a 5 de janeiro</p>
+              <p>1 a 5 de<br></br>janeiro</p>
             </div>
             <div className="free">
               <FaExclamationCircle  className="icon" />
-              <p>100% online e gratuito!</p>
+              <p>100% online<br></br>e gratuito!</p>
             </div>
             <div className="new-content">
               <FaStar />
-              <p>Conteúdo inédito!</p>
+              <p>Conteúdo<br></br>inédito!</p>
             </div>
           </div>
         </div>
         <div className="hero-content">
           <h1>Avance para o<br></br>próximo nível</h1>
           <p>Um evento para dar o próximo passo na sua<br></br> evolução como programadora ou programador.</p>
-          <a className="button" href="#">QUERO PARTICIPAR</a>
+          <a className="button" href="https://github.com/Lorenalgm">QUERO PARTICIPAR</a>
         </div>
       </div>
       <div className="about">
         <img src={image} alt="Logo" />
         <div className="about-content">
-          <h1>O que é a Next Level Week?</h1>
+          <h1>O que é a Next<br></br>Level Week?</h1>
           <p className="highlight">O NLW é um evento com muito código, desafios, 
             networking e um único objetivo: te levar para o próximo nível.</p>
           <p>Programação é uma disciplina prática. Ou seja, para dominar uma 
@@ -163,7 +162,7 @@ function App() {
         </div>
         <div className="hero-content content-footer">
           <h1>Participe e bora codar!</h1>
-          <a className="button" href="#">QUERO PARTICIPAR</a>
+          <a className="button" href="https://github.com/Lorenalgm">QUERO PARTICIPAR</a>
         </div>
       </div>
     </div>

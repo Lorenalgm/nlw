@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root{
   --cinza: #121214;
   --verde: #04d361;
@@ -11,6 +13,7 @@ body{
   padding: 0;
   background: var(--cinza);
   color: var(--cinza-claro);
+  font-family: 'Roboto', sans-serif;
 }
 
 .App{
@@ -75,6 +78,11 @@ body{
   flex-direction: column;
   align-items: center;
   margin-bottom: 9em;
+  color: var(--cinza-claro);
+}
+
+.highlight{
+  color: var(--verde);
 }
 
 .pillar{
@@ -154,9 +162,14 @@ body{
     width: 15%;
   }
 
+  .header-info div{
+    font-size: 1.4em;
+    margin-right: 2em;
+  }
+
   .hero-content h1{
     font-size: 4.5em;
-    margin-bottom: 0;
+    margin-bottom: 0em;
   }
 
   .hero-content p{
@@ -166,6 +179,19 @@ body{
   .button{
     padding: 1.4em 3.6em;
     font-size: 1.2em;
+  }
+
+  .about{
+    flex-direction: row;
+  }
+
+  .about-content{
+    padding: 0 5em;
+    font-size: 1.2em;
+  }
+
+  .about-content h1{
+    font-size: 2.5em;
   }
 
 }
